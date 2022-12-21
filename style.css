@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    outline: none!important;
+    text-decoration: none!important;
+}
+
+.login-form{
+    height: 100vh;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form .box{
+    min-width: 400px;
+    min-height: 450px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #cccccc;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+/*resize the gif image*/
+.login-form .box .img img{
+    width: 60px;
+    display: block;
+    margin:auto;
+}
+
+.login-form .box .heading h4{
+    color: #0089fe;
+    font-size: 22px;
+    text-align: left;
+    margin: 15px 0px 10px;
+    border-bottom: 1px solid;
+    padding: inline-block;
+}
+
+.login-form .box .form-fields{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login-form .box .form-fields .input-box{
+    position: relative
+}
+
+.login-form .box .form-fields .input-box .form-control{
+    height: 40px;
+    width: 100%;
+    padding-left: 0px 0px 0px 45px;
+    color:#444444;
+    border:1px solid #cccccc;
+}
+.login-form .box .form-fields .input-box .form-control::placeholder{
+    color:#cccccc;
+}
+.login-form .box .form-fields .input-box span{
+    position: absolute;
+    Left: 0px;
+    top: 0px;
+        
+}

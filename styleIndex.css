@@ -1,0 +1,21 @@
+.container-fluid{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.object-one, .object-two, ,object-three{
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    text-align: center;
+}
+.object one{
+    <div class="object-one"
+
+}
+.object two{
+    
+}
+.object three{
+    
+}
