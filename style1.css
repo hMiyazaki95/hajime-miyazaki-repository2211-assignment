@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header_left img{
+    object-fit: contain;
+    height: 80px;
+    margin-left: 5px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+.header_left {
+    display: flex;
+    align-items: center;
+}
+
+.header_left span {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header_middle {
+    display: flex;
+    flex: 0.7;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.material-symbols-outlined {
+    color: gray;
+}
+.material-icons {
+    color: gray;
+}
+
+.header_middle input{
+    border:none;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: medium;
+    background-color: transparent;
+}
+
+.header_right{
+    display: flex;
+    padding-right: 20px;
+}
+
+.header_right span{
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+/*Sidebar */
+.sidebar {
+    flex: 0.3;
+    max-width: 300px;
+    padding-right: 20px;
+}
+
+.sidebar_compose {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: gray;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
+}
+
+.sidebar_compose span {
+    margin-right: 5px;
+}
+
+.sidebarOption {
+    display: flex;
+    align-items:center;
+    height: 40px;
+    padding: 0 10px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    color: #818181;
+}
+
+.sidebarOption .material-icons {
+    padding: 5px;
+}
+
+.sidebarOption h3{
+    flex: 1;
+    margin-left: 10px;
+    font-size: 14px;
+    font: 400;
+}
+
+.sidebarOption:hover,
+.sidebarOption:hover h3,
+.sidebarOption:hover .material-icons,
+.sidebarOption_active,
+.sidebarOption_active h3,
+.sidebarOption_active .material-icons {
+    background-color: #fcecec;
+    color: #c04b37;
+    font-weight: 800;
+}
+
+.sidebar_footer {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar_footerIcons .material-icons {
+    margin: 7px;
+    cursor: pointer
+
+}
+
+
+ /* main body styling*/
+
+ .main_body{
+    display: flex;
+    height: 100vh;
+ }
+
+ body {
+    height: 100vh;
+    overflow-y: hidden;
+ }
+
+ /* email list */
+ .emailList {
+    flex: 1;
+    overflow: scroll;
+ }
+
+ .emailList_settings{
+    position: sticky;
+    top: 0;
+    display: flex;
+
+ }
+
+ .emailList_settingsLeft{
+    display: flex;
+    align-items: center;
+ }
+
+ .emailList_settings .material-icons {
+    margin: 5px;
+    cursor: pointer; 
+ }
+
+ .section {
+    display: flex;
+    align-items: center;
+    border-bottom:
+ }
